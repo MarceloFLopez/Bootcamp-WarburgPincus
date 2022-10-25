@@ -5,6 +5,8 @@
     padding: 2rem 1rem;
     border-radius: 1rem;
     background-color: #49d0b0;
+    border-style: hidden inset;
+
 }
 
 .pokemons {
@@ -19,12 +21,12 @@
     text-align: right;
     color: black;
     opacity: 0.3;
-    font-size: 0.625rem;
+    font-size: .850rem;
 }
 
 .pokemon .name {
     color: white;
-    margin-bottom: .125rem;
+    margin-bottom: .250rem;
 }
 
 .pokemon .detail {
@@ -56,18 +58,18 @@
 
 @media screen and (min-width: 380px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 @media screen and (min-width: 576px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 992px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
